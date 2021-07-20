@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/* header */
+header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 3px 3px #1a1a1a;
+  z-index: 10; }
+
+/* INICIO NAVBAR */
+#navFondo {
+  margin: 0px;
+  top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+#menuDesplegable {
+  margin: 0px;
+  top: 0px;
+  padding-top: 0px;
+  background-color: #2f2f2f;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-decoration: none; }
+
+.navbar-brand img {
+  width: 150px; }
+
+#menuDesplegable button {
+  background-color: #414141; }
+
+#navbarSupportedContent a {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-decoration: none; }
+
+a:hover {
+  background: #8b8787; }
+
+#opcionDesplegable {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  background-color: #2f2f2f;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-decoration: none; }
+
+#opcionDesplegable a:hover {
+  background: #8b8787; }
+
+/* FIN NAVBAR */
+/* INICIO MENU */
+h1 {
+  color: #2a3b47;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 800; }
+
+.encabezado {
+  color: #070604;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400; }
+
+.colorLista {
+  color: #697477;
+  font-style: normal;
+  font-family: sans-serif; }
+
+body {
+  background-color: #eff3f5; }
+
+h2 {
+  color: #383838;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 100px;
+  text-align: center;
+  width: 100%; }
+
+.articuloSectionVertical {
+  flex-direction: column;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30px;
+  text-align-last: center;
+  justify-content: center; }
+
+.tituloSection {
+  margin-bottom: 50px; }
+
+.articuloSection {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 30px;
+  text-align-last: center;
+  justify-content: center; }
+
+.carta {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 350px;
+  width: 210px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 60px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0px; }
+  .carta__img:hover {
+    transform: scale(1.1, 1.1); }
+  .carta__img {
+    color: #555353;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 0px;
+    width: 162px;
+    height: 125px; }
+  .carta h3 {
+    color: #555353;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    padding-top: 10px;
+    text-align: center; }
+  .carta__text {
+    font-style: normal;
+    font-family: sans-serif; }
+  .carta__link, .carta__linkOferta {
+    color: #2c2b2b;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #76a9e7;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px; }
+  .carta__linkOferta {
+    background-color: #7aee5d; }
+
+#carta__gratis {
+  color: #2c2b2b;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: #e7d42b;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 10px; }
+
+/* FIN MENU */
+/* INICIO FOOTER*/
+footer {
+  background-color: #2f2f2f;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between; }
+
+.iconoSociales {
+  display: flex;
+  align-items: center; }
+
+#sociales {
+  display: flex;
+  align-items: center; }
+
+.iconoSocialesSociales {
+  width: 25px;
+  height: 25px;
+  margin: 5px; }
+
+#registro {
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.form-label {
+  color: white; }
+
+.form-control {
+  height: 25px; }
+
+/* FIN FOOTER */
+/* Estilos Tabla Planes Premium */
+.contenedorTabla {
+  margin: 150px auto;
+  width: 1000px; }
+
+table {
+  background-color: #c5c2c2;
+  width: 100%;
+  height: 500px;
+  border-collapse: collapse;
+  text-align: center;
+  font-style: normal;
+  font-family: sans-serif; }
+
+th td {
+  background-color: #cccccc;
+  padding: 20px; }
+
+.premium {
+  background: #83f66f;
+  font-size: 20px; }
+
+/* FIN PANTALLA HASTA MIN 600PX */
+@media only screen and (min-width: 600px) {
+  /* INICIO PORTADA+MENU */
+  #grillaUno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    word-wrap: break-word;
+    margin: 60px;
+    margin-left: 0;
+    background-color: #2f2f2f;
+    width: 100%;
+    height: auto;
+    margin-top: 0px; }
+  #tituloPortada {
+    width: 60%;
+    margin-top: 120px;
+    margin-left: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; }
+  #tituloPortada h1 {
+    color: white;
+    font-size: 45px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 800; }
+  #tituloPortada p {
+    color: #006df0;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+    font-weight: 600; }
+  .imagenPortada {
+    width: 400px;
+    height: 400px; }
+  .comentarioCarta {
+    font-size: 15px; }
+  #contenedorPortada {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; }
+  /* FIN PORTADA+MENU */
+  /* INICIO CARTA GRANDE con Bem*/
+  .cartaCursoGrande {
+    /* height: 400px; */
+    width: 500px;
+    background: white;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 60px;
+    margin: 10px;
+    padding: 20px; }
+    .cartaCursoGrande__tituloCartaGrande {
+      color: #333232;
+      font-style: normal;
+      font-family: sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      padding-top: 10px;
+      text-align: left; }
+    .cartaCursoGrande__detalleCartaGrande {
+      margin-top: 10px;
+      width: 30%;
+      height: 60%;
+      margin-top: 50px;
+      display: inline-flex;
+      justify-content: space-around; }
+    .cartaCursoGrande__tituloDetalle {
+      color: #867e7e;
+      font-style: normal;
+      font-family: sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      width: 200px; }
+  /* FIN CARTA GRANDE con Bem*/
+  /* INICIO FORMULARIO REGISTRO */
+  .formulario {
+    text-align: left;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 50px;
+    border-color: black;
+    border-right: none;
+    padding: 10px;
+    background: #c0c0c0ea;
+    text-align: center; }
+  .formulario div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; }
+  .check {
+    display: flex;
+    flex-direction: row; }
+  /* FIN FORMULARIO REGISTRO */ }
+
+/* FIN PANTALLA HASTA MIN 600PX */
+/* INICIO PANTALLA HASTA MAX 600PX */
+@media only screen and (max-width: 600px) {
+  /* INICIO PORTADA+MENU */
+  #grillaUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-center;
+    word-wrap: break-word;
+    background-color: #2f2f2f;
+    width: 100%;
+    height: auto;
+    margin-top: 0px; }
+  #grillaUno div {
+    display: block;
+    text-align: center; }
+  .imagenPortada {
+    width: 200px; }
+  #tituloPortada {
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+    padding-right: 30px; }
+  #tituloPortada h1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: auto;
+    font-weight: 800;
+    width: 100%; }
+  #tituloPortada p {
+    color: #006df0;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin-right: 30px; }
+  #botonRegistro {
+    margin-left: 30px;
+    margin-top: 3px;
+    height: 20px; }
+  .comentarioCarta {
+    font-size: 15px; }
+  /* FIN PORTADA+MENU */
+  /* INICIO CARTA GRANDE con Bem*/
+  .cartaCursoGrande {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    background: white;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 60px;
+    margin: 10px;
+    padding: 20px; }
+    .cartaCursoGrande__tituloCartaGrande {
+      color: #333232;
+      font-style: normal;
+      font-family: sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      padding-top: 10px;
+      text-align: left; }
+    .cartaCursoGrande__detalleCartaGrande {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 10px;
+      margin-top: 50px;
+      font-style: normal;
+      font-family: sans-serif;
+      font-size: 15px; }
+    .cartaCursoGrande__tituloDetalle {
+      color: #867e7e;
+      font-style: normal;
+      font-family: sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      width: 200px;
+      font-style: normal;
+      font-family: sans-serif;
+      font-size: 20px; }
+  /* FIN CARTA GRANDE con Bem*/
+  /* INICIO FORMULARIO REGISTRO */
+  .formulario {
+    text-align: left;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 50px;
+    border-color: black;
+    border-right: none;
+    padding: 10px;
+    background: #c0c0c0ea;
+    text-align: center; }
+  .formulario div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; }
+  .check {
+    display: flex;
+    flex-direction: row; }
+  /* FIN FORMULARIO REGISTRO */ }
+
+/* FIN PANTALLA HASTA MAX 600PX */
+/* 
+  @media only screen and (min-width: 768px) {
+  }
+  
+  @media only screen and (min-width: 1200px) {
+  } */

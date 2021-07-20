@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Cursos y carreras de programacion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link rel="shortcut icon" href="imagenindex/logo.svg">
+    <meta name="description" content="Capacitate en carreras del futuro, aprende a programar y trabaja en cualquier lugar del mundo.">
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navFondo">
+                <div class="container-fluid" id="menuDesplegable">
+                    <div class="animate__animated animate__bounce" id="logo">
+                        <a class="navbar-brand" href="#">
+                            <img src="imagenindex/logo.svg">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="cursos.html">Cursos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Carreras</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="opcionDesplegable">
+                                    <li><a class="dropdown-item" href="carreras.html">FullStack</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="carreras.html">Diseño Grafico</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="carreras.html">Diseño Ux/Ui</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="planes.html">Planes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="formularioregistro.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="grillaUno">
+                <div id="tituloPortada" class="col">
+                    <h1>Cursos y Carreras</h1>
+                    <p>Capacitate en carreras del futuro, aprende a programar y trabaja en cualquier lugar del mundo.</p>
+                </div>
+                <div class="col" id="contenedorPortada">
+                    <img class="imagenPortada" src="imagenindex/imagenindexprincipal.svg"
+                        alt="Imagen portada del index">
+                </div>
+            </div>
+            <section class="contenedorSection">
+                <div class="tituloSection">
+                    <h2>Carreras</h2>
+                </div>
+                <article class="articuloSection">
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/carrerafullstack.svg" alt="html5">
+                        <h3>FullStack</h3>
+                        <p class="carta__text">En esta carrera te desarrollarás desde cero como Full Stack</p>
+                        <div class="carta__container">
+                            <a href="carreras.html" class="carta__linkOferta">$500</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/carreradiseño.svg" alt="html5">
+                        <h3>Diseño Grafico</h3>
+                        <p class="carta__text">Posicionar mejor nuestras marcas haciéndolas atractivas y
+                            reconocibles para el público.</p>
+                        <div class="carta__container">
+                            <a href="carreras.html" class="carta__link">$1000</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/carrerauxui.svg" alt="html5">
+                        <h3>Diseño Ux/Ui</h3>
+                        <p class="carta__text">Diseña interfaces y crea tu primer proyecto</p>
+                        <div class="carta__container">
+                            <a href="carreras.html" class="carta__linkOferta">$500</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="contenedorSection">
+                <div class="tituloSection">
+                    <h2>Cursos</h2>
+                </div>
+                <article class="articuloSection">
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/html5.svg" alt="html5">
+                        <h3>HTML</h3>
+                        <p class="carta__text">Aprende HTML5 desde cero</p>
+                        <div class="carta__container">
+                            <a href="#" id="carta__gratis">Gratis</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/css.svg" alt="html5">
+                        <h3>CSS</h3>
+                        <p class="carta__text">Aprende CSS desde cero</p>
+                        <div class="carta__container">
+                            <a href="#" id="carta__gratis">Gratis</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/javascript.svg" alt="html5">
+                        <h3>Javascript</h3>
+                        <p class="carta__text">Aprende Javascript desde Cero</p>
+                        <div class="carta__container">
+                            <a href="#" class="carta__link">$1000</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/react.svg" alt="html5">
+                        <h3>React</h3>
+                        <p class="carta__text">Aprende a crear paginas con React</p>
+                        <div class="carta__container">
+                            <a href="#" class="carta__link">$1000</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/firebase.svg" alt="html5">
+                        <h3>Firebase</h3>
+                        <p class="carta__text">Crea tus Apps con Backend como servicio</p>
+                        <div class="carta__container">
+                            <a href="#" class="carta__link">$1000</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/diseño.svg" alt="html5">
+                        <h3>Fundamentos del diseño</h3>
+                        <p class="carta__text">Diseña productos y
+                            aplicaciones</p>
+                        <div class="carta__container">
+                            <a href="#" class="carta__link">$1000</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/photoshop.svg" alt="html5">
+                        <h3>Photoshop Desde Cero</h3>
+                        <p class="carta__text">Diseña para web y retoque fotográfico.</p>
+                        <div class="carta__container">
+                            <a href="#" class="carta__link">$1000</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/illustrator.svg" alt="html5">
+                        <h3>Illustrator Desde Cero</h3>
+                        <p class="carta__text">Aprende diseño vectorial con el software preferido por los
+                            expertos.</p>
+                        <div class="carta__container">
+                            <a href="#" class="carta__link">$1000</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/uxui.svg" alt="html5">
+                        <h3>Diseño UX/UI</h3>
+                        <p class="carta__text">Diseñarás y crearás un prototipo de app o sitio web mobile</p>
+                        <div class="carta__container">
+                            <a href="#" class="carta__link">$1000</a>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <img class="carta__img" src="imagenindex/figma.svg" alt="html5">
+                        <h3>Figma</h3>
+                        <p class="carta__text">Aprende la principal herramienta de diseño y prototipado
+                            colaborativo.</p>
+                        <div class="carta__container">
+                            <a href="#" class="carta__link">$1000</a>
+                        </div>
+                    </div>
+                    <div class="cartaCurso">
+                        <img src="" alt="">
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <footer class="container-fluid">
+            <div class="row justify-content-end">
+                <div class="col " id="sociales">
+                    <div class="iconoSociales">
+                        <a href="https://www.instagram.com/" target="_blank"><img class="iconoSocialesSociales"
+                                src="imagenindex/instagram.svg" alt=""></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img class="iconoSocialesSociales"
+                                src="imagenindex/facebook.svg" alt=""></a>
+                        <a href="https://web.whatsapp.com/" target="_blank"><img class="iconoSocialesSociales"
+                                src="imagenindex/whatsapp.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-6">
+                    <label for="exampleInputEmail1" class="form-label">Suscribite</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Recibi todas las novedades de diseño Web. 💡</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
